@@ -25,6 +25,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $config['base_url'] = 'http://localhost:8888/cms_01';
 
+
+
+$config['assets'] = array(
+    'css' => $config['base_url'] . '/assets/css',
+    'js' => $config['base_url'] . '/assets/js',
+    'img' => $config['base_url'] . '/assets/img',
+);
+
 /*
 |--------------------------------------------------------------------------
 | Index File
